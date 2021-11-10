@@ -29,7 +29,7 @@ Navigate to the root of the project and use npm to run the project
 * Express - Fast node.js network app framework.
 
 ## Authors ✒️
-* Diana Carolina Rivera
+* Diana Carolina Rivera Rivera is a Telematic engineer. She loves cibersecurity and learn about the programming world. She likes to play videogames and to travel on motorbike.
 * Mileidis Ruiz Morelos
 * Julián Guillermo Zapata
 * Oscar Castillo
