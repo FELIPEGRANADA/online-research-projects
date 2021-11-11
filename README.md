@@ -1,3 +1,8 @@
+# Integrantes Desarrollo
+1 Julián Guillermo Zapata Rugeles
+2 Diana Carolina Rivera Romero
+3 Mileidis Ruiz Morelos
+
 # online-research-projects
 Information management system for research projects -  Web cycle Mision TIC
 
@@ -30,7 +35,7 @@ Navigate to the root of the project and use npm to run the project
 
 ## Authors ✒️
 * Diana Carolina Rivera
-* Mileidis Ruiz Morelos
+* Mileidis Ruiz Morelos is a computer network administrator, who likes software development, technology, sports, and design.
 * Julián Guillermo Zapata
 * Oscar Castillo
 * Luis Felipe Granada Ramírez is a systems engineer. He loves programming and learning new technologies. He likes to ride a motorcycle
