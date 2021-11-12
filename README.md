@@ -1,6 +1,7 @@
 # Integrantes Desarrollo 
 
 - 1 Julián Guillermo Zapata Rugeles
+- 2 Oscar Alberto Castillo Rincon
 
 
 # online-research-projects
@@ -37,5 +38,5 @@ Navigate to the root of the project and use npm to run the project
 * Diana Carolina Rivera
 * Mileidis Ruiz Morelos
 * Julián Guillermo Zapata
-* Oscar Castillo
+* Oscar Alberto Castillo Rincón
 * Luis Felipe Granada Ramírez is a systems engineer. He loves programming and learning new technologies. He likes to ride a motorcycle
