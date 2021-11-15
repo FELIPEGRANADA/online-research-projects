@@ -3,6 +3,7 @@
 2. Diana Carolina Rivera Romero
 3. Mileidis Ruiz Morelos
 4. Oscar Alberto Castillo Rincón
+5. Luis Felipe Granada Ramírez
 
 # online-research-projects
 Information management system for research projects -  Web cycle Mision TIC
@@ -35,7 +36,7 @@ Navigate to the root of the project and use npm to run the project
 * Express - Fast node.js network app framework.
 
 ## Authors ✒️
-* Diana Carolina Rivera
+* Diana Carolina Rivera is a Telematic engineer. She loves cibersecurity and learn about the programming world. She likes to play videogames and to travel on motorbike
 * Mileidis Ruiz Morelos is a computer network administrator, who likes software development, technology, sports, and design.
 * Julián Guillermo Zapata
 * Oscar Alberto Castillo Rincón
