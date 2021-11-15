@@ -1,16 +1,8 @@
-<<<<<<< HEAD
-# Integrantes Desarrollo 
-
-- 1 Julián Guillermo Zapata Rugeles
-- 2 Oscar Alberto Castillo Rincon
-
-=======
 # Integrantes Desarrollo
-1 Julián Guillermo Zapata Rugeles
-2 Diana Carolina Rivera Romero
-3 Mileidis Ruiz Morelos
-4 Oscar Alberto Castillo Rincón
->>>>>>> 8694ac0b1a8f70b10860368bd2bba478e311f7c5
+1. Julián Guillermo Zapata Rugeles
+2. Diana Carolina Rivera Romero
+3. Mileidis Ruiz Morelos
+4. Oscar Alberto Castillo Rincón
 
 # online-research-projects
 Information management system for research projects -  Web cycle Mision TIC
