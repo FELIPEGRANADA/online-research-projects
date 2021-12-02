@@ -1,0 +1,75 @@
+.login-dev{
+    display:flex;
+    justify-content: center;
+}
+
+
+
+
+.field-container{
+    margin: auto;
+    width: 40%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding-top:100px;
+    padding-bottom: 100px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-style: groove;
+    box-shadow: gray 8px 8px 3px;
+    border-color:grey;
+    border-width: 3px;
+
+
+}
+
+
+.imgagen-logo{
+    display:flex;
+    justify-content: center;
+    
+}
+
+
+.entradas-login {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+
+.entradas-login input{
+    max-width: 300px;
+    width: 100%;
+    padding: 2px;
+    margin: 10px;
+    height: 25px;
+   
+}
+
+
+
+
+.boton-acciones {
+    display:flex;
+    justify-content:center;
+}
+
+.boton-acciones button{
+
+    background-color: rgb(15, 15, 15);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    font-weight: bold;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    border-radius:5px;
+}
