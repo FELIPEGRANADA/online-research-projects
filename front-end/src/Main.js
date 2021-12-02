@@ -5,6 +5,7 @@ import Perfil from "./componentes/Perfil/Perfil";
 import Proyectos from "./componentes/Proyectos/Proyectos";
 import Registro from "./componentes/Registro/Registro";
 import Usuarios from "./componentes/Usuarios/Usuarios";
+import Bienvenida from "./componentes/Bienvenida/Bienvenida";
 
 
 function Main() {
@@ -23,6 +24,8 @@ function Main() {
       <Registro/>
       <hr/>
       <Usuarios/>
+      <hr/>
+      <Bienvenida/>
     </div>
   );
 }
