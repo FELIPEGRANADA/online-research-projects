@@ -1,0 +1,31 @@
+.bienvenida-div{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+    border-radius:30%;
+    border-style: none;
+    background-color:ivory;
+    padding:20px;
+}
+
+
+.bienvenida-logo{
+
+    width:40%;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+.img-bienvenida{
+    width:100%;
+}
+
+.bienvenida-div p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
