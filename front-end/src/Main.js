@@ -11,6 +11,7 @@ import Bienvenida from "./componentes/Bienvenida/Bienvenida";
 function Main() {
   return (
     <div className="App">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
       <p> Aquí se hubicará todo el contenido del front-end </p>
       <hr/>
       <Login/>
