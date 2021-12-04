@@ -2,9 +2,6 @@ import React from "react";
 import { useState } from "react";
 import "./Navegacion.css";
 
-
-
-
 function  Navegacion() {
 
     return(
