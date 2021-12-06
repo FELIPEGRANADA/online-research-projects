@@ -6,28 +6,22 @@
 
 import React from "react";
 import { useState, useEffect } from "react";
+import { useQuery } from '@apollo/client'
 import "./Proyectos.css";
+import GET_PROJECTS from "../../DAO/projectQueries/getAllProjects";
 
 // Definition of the component
 const Proyectos = () => {
 
     // Change of status on data(Projects)
-    const [data, setData] = useState([]);
+    //const [data, setData] = useState([]);
 
     // Effect => Run before rendering the component
-    useEffect(() => {
-        const dataAux=[{_id:"564646454545",
-        name:"Proyecto Angular",
-        generalobj:"Crear Proyecto MERN",
-        specificobj:"Usar metodología Scrum",
-        budget:580000,
-        startdate:"29/11/2021",
-        enddate:"31/12/2021",
-        leaderid:"6195bc1e78a11d3df22ab90e",
-        status:"Activo",
-        stage:"Iniciado"}];
-        setData(dataAux);
-      });
+    /*useEffect(() => {
+    });*/
+
+    // Project Queries: Get all projects
+    const { loading, data, error } = useQuery(GET_PROJECTS);
       
     // Render the component
     return(
@@ -36,7 +30,9 @@ const Proyectos = () => {
                 <h1>Proyectos</h1>
                 <button className="button-new">Nuevo +</button>
             </div>
-            <table className="table-bordered">
+            {loading && <p>Cargando información</p>}
+            {error && <p>Se ha presentado un error en la carga de datos</p>}
+            {data && <table className="table-bordered">
                 <thead>
                     <tr>
                         <th>Nombre</th>
@@ -53,8 +49,8 @@ const Proyectos = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    {data.map((project) => (
-                        <tr key={project._id}>
+                    {data.projects.map((project) => (
+                        <tr key={project.id}>
                             <td>{project.name}</td>
                             <td>{project.generalobj}</td>
                             <td>{project.specificobj}</td>
@@ -69,7 +65,7 @@ const Proyectos = () => {
                         </tr>
                     ))}
                 </tbody>
-            </table>
+            </table>}
         </div>
     )
     
