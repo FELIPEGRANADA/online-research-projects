@@ -5,7 +5,7 @@ import "./Navegacion.css";
 function  Navegacion() {
 
     return(
-        <div className="xxxxx-div">
+        <div className="navegacion-div">
            <p> Este es un componente </p>
         </div>
     )

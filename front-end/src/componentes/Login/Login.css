@@ -1,6 +1,11 @@
-.login-dev{
+
+
+
+.login-div{
     display:flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 
@@ -14,12 +19,11 @@
     align-items: center;
     padding-top:100px;
     padding-bottom: 100px;
-    border-bottom-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-style: groove;
-    box-shadow: gray 8px 8px 3px;
-    border-color:grey;
-    border-width: 3px;
+    border-style: none;
+    background-image:url("../../Multimedia/login-back.jpeg");
+    border-radius:50px;
+    
+
 }
 
 
@@ -55,12 +59,14 @@
 
 .boton-acciones {
     display:flex;
-    justify-content:center;
+    justify-content:space-around;
 }
+
+
 
 .boton-acciones button{
 
-    background-color: rgb(15, 15, 15);
+    background-color: rgb(32, 22, 22);
     font-family: Arial, Helvetica, sans-serif;
     font-size:15px;
     font-weight: bold;
@@ -69,6 +75,15 @@
     padding-right: 10px;
     padding-top:5px;
     padding-bottom: 5px;
-    border-radius:5px;
-    margin: 0em 1em 0em 0em;
+    margin: auto;
+    width: 130px;
+    height:40px;
+
+}
+
+.version-app{
+    color: rgb(56, 56, 56);
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 15px;
 }
