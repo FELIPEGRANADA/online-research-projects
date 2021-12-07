@@ -12,6 +12,8 @@ import React from "react";
 import { useState } from "react";
 import "./Login.css";
 import img_logo from "../../Multimedia/logo.png";
+import { Link } from 'react-router-dom';
+import background from "../../Multimedia/login-back.jpeg";
 
 
 
@@ -20,7 +22,7 @@ function Login() {
     return(
         <div className="login-div">
             
-            <p> <strong>Este es el componente Login </strong></p>
+            <p className="version-app"> SYSGEPRO - versión 1.0 </p>
             <fieldset className="field-container">
 
                 <div className="imagen-logo">
@@ -34,8 +36,9 @@ function Login() {
 
                 </div>
                 <div className="boton-acciones">
-                    <button type="submit" > Ingresar </button>
-                    <button type="submit" > Registrarse </button>
+                   {/* Esta linea es temporal para pruebas de ingreso al proyecto */}
+                    <Link to="/mainFaces"> <button type="submit" > Ingresar </button></Link>
+                    <Link to="/registro"> <button type="submit" > Registrarse </button></Link>
                 </div>
             </fieldset>
         </div>
