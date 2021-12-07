@@ -81,6 +81,8 @@ function  Navegacion() {
                 {/*
 
                     Aquí estara el componente a mostrar en la pagina principal 
+                    se planea que el componente navegación retorne al main faces el componente a renderizar
+                    y sea main faces el encargado de mostrarlo 
                     
                 
                 */}
