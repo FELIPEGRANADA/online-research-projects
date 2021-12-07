@@ -6,7 +6,7 @@
 */
 
 import React from "react";
-import { useState } from "react";
+import { useState , useEffect } from "react";
 import "./Navegacion.css";
 import { Link } from "react-router-dom";
 import Bienvenida from "../Bienvenida/Bienvenida"
@@ -15,8 +15,23 @@ import Usuarios from "../Usuarios/Usuarios"
 import Perfil from "../Perfil/Perfil"
 
 function  Navegacion() {
-    const [ componente_actual , set_componente_actual ] = useState(Bienvenida);
 
+    const [ componente_actual , set_componente_actual ] = useState(Bienvenida);
+    const fecha = new Date().toLocaleDateString();
+    const [hora , set_hora ] = useState(new Date().toLocaleTimeString());
+
+
+    useEffect(
+        () => {
+          const id = setTimeout(() => {
+            set_hora(new Date().toLocaleTimeString()); 
+          }, 1000);
+          return () => {
+            clearTimeout(id);
+          };
+        },
+        [hora],
+      );
 
     const logout = () =>{
 
@@ -27,6 +42,7 @@ function  Navegacion() {
         */
 
         window.location.href = '/';
+        
     }
 
     return(
@@ -71,8 +87,8 @@ function  Navegacion() {
 
             </nav>
             
-            <div>
-                <p>  Hora Local :  </p>
+            <div className="fecha-sistema">
+                <p> {fecha}  -  { hora } </p>
             </div>
 
 

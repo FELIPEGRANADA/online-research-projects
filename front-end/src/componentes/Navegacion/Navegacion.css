@@ -25,7 +25,7 @@ body{
 .Link{
     color: white;
     text-decoration: none;
-    
+
 }
 
 .Link:hover{
@@ -38,4 +38,26 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+.fecha-sistema{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 35px;
+    margin-top: 0px;
+}
+
+
+.fecha-sistema p{
+   border-radius: 3px;
+   border-style: solid;
+   padding:10px;
+   font-style: monospace;
+   font-size: 15px;
+   font-weight: bold;
+   color: white;
+   background-color:rgb(100, 13, 61);
+   border-radius: 10px;
 }
