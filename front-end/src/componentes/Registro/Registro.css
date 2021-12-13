@@ -1,0 +1,71 @@
+.registro-div{
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+
+.formulario-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.formulario-registro{
+    background-image:url("../../Multimedia/login-back.jpeg");
+}
+
+.formulario-inputs input{
+    height:30px;
+    width: 400px;
+    padding:5px;
+    margin: 10px;
+
+}
+
+.formulario-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+}
+
+fieldset{
+    border-radius: 10px;
+    border-color:gainsboro;
+    box-shadow: 2px 2px 2px;
+}
+
+.formulario-botones{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.formulario-botones button{
+    height:30px;
+    margin:10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.btn-registrar{
+    background-color: rgb(11, 80, 48);  
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.btn-cancelar{
+    background-color: rgb(116, 6, 30);  
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+}
