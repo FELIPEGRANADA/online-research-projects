@@ -1,8 +1,8 @@
 /*
-   Autor  : Julián Guillermo Zapata Rugeles
+   Autor  : Mileidis Ruiz Morelos
    
    El objetivo de este componente es renderizar el Perfil que usará el usuario 
-   para la edicion de sus datos en plataforma de proyectos 
+   para la visualizacion y edicion de sus datos en la plataforma de proyectos 
    
 */
 
