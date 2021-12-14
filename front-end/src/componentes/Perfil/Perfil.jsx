@@ -1,8 +1,8 @@
 /*
-   Autor  : Julián Guillermo Zapata Rugeles
-   
-   El objetivo de este componente es renderizar el Perfil que usará el usuario 
-   para la edicion de sus datos en plataforma de proyectos 
+   Autor  : Mileidis Ruiz Morelos
+
+   El objetivo de este componente es renderizar el Perfíl que usará el usuario 
+   para la visualización y edición de sus datos en la plataforma de proyectos 
    
 */
 
@@ -11,7 +11,6 @@ import { useState } from "react";
 import "./Perfil.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import img_user from "../../Multimedia/user-member.jpg";
-
 
 
 function  Perfil() {
